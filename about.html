@@ -1,0 +1,108 @@
+<!--
+Name: Amit Cohen
+Course: SDEV153
+Project: Video Game Hobby Website
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="About the creator of this video game library website.">
+    <meta name="keywords" content="video games, game reviews, gaming library, Nintendo, game suggestions, Amit Cohen">
+    <title>About Me - My Gaming Library</title>
+    <link rel="icon" type="image/png" href="videogamecontrollericon.png">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Open Graph tags -->
+    <meta property="og:title" content="About Me - My Gaming Library">
+    <meta property="og:description" content="About Amit Cohen, creator of this video game library website.">
+    <meta property="og:image" content="videogamecontrollericon.png">
+    <meta property="og:type" content="website">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <header>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html" aria-current="page">About Me</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <a href="index.html" class="logo-link" aria-label="Home">
+                <img src="videogamecontrollericon.png" alt="Pixel art video game controller logo" class="site-logo"
+                    width="80" height="80">
+            </a>
+            <h1>About Me</h1>
+            <p>Learn more about the gamer behind this library</p>
+            <a href="#about-section" class="cta-button">Meet Amit</a>
+        </div>
+    </header>
+    <main>
+        <div class="welcome-intro">
+            <p>Welcome! I'm Amit, a lifelong gamer and Nintendo fan. This page is all about my gaming journey, favorite
+                consoles, and what inspired me to create this site.</p>
+        </div>
+        <section class="about-section" id="about-section">
+            <h2>Hi, I'm Amit Cohen! <span class="about-emoji">🎮</span></h2>
+            <div class="about-flex">
+                <div class="about-bio">
+                    <p><strong>Welcome!</strong> I'm a lifelong gamer and a <span class="nintendo">huge Nintendo
+                            fan</span>. Even though I'm fairly young, I love going back to the classics as much as I
+                        enjoy playing the latest releases. I've been playing video games since I was 6 years old, and
+                        I've never stopped since.</p>
+                    <p>My favorite genres include <span class="about-highlight">action-adventure</span>, <span
+                            class="about-highlight">platformers</span>, and <span class="about-highlight">JRPGs</span>.
+                        I created this website to share my gaming journey, highlight my favorite titles, and hopefully
+                        inspire you to play more video games.</p>
+                    <h3>Fun Facts <span class="about-emoji">⭐</span></h3>
+                    <ul>
+                        <li>First console: <span class="about-highlight">Wii</span></li>
+                        <li>All-time favorite game: <span class="about-highlight">Super Mario Galaxy</span></li>
+                        <li>Current obsession: <span class="about-highlight">The new Switch 2</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="top-consoles">
+            <h3>Top 3 Nintendo Consoles <span class="about-emoji">🏆</span></h3>
+            <table class="about-table">
+                <thead>
+                    <tr>
+                        <th>Rank</th>
+                        <th>Console</th>
+                        <th>Why I Love It</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Wii</td>
+                        <td>My first console, amazing motion controls, and a fantastic library of games.</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Switch</td>
+                        <td>Hybrid design, portability, and a huge variety of games.</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>GameCube</td>
+                        <td>Classic multiplayer fun and some of the best exclusives ever.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 My Gaming Library &mdash; Thanks for visiting! Happy gaming! <span aria-label="video game"
+                role="img">🎮</span></p>
+        <button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
